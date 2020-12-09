@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cc1065d-0058-4d2e-91b2-2022f8c5aacf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/images/junit-fail-pass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/junit-fail-pass2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/junit-fail-pass3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/reports.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/spec-a.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/spec-a.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ci-view.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ci-view.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/junit-fail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/junit-pass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/report.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test-artifacts.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,13 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="480">
-                <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="40" />
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -49,16 +36,21 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="spec-a.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="spec-a.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cypress/integration/spec-a.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+            <state relative-caret-position="645">
+              <caret line="43" column="2" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mutov</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,8 +62,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/cypress/integration/spec-d.js" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/cypress/integration/spec-a.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -91,7 +83,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="-2560" />
     <option name="y" value="-431" />
     <option name="width" value="2560" />
@@ -206,7 +198,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2930000" />
+    <option name="totallyTimeSpent" value="3326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="-431" width="2560" height="1440" extended-state="6" />
@@ -221,7 +213,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.33553115" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32967034" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -382,7 +374,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cypress/support/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cypress/plugins/index.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -413,6 +411,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -462,16 +463,6 @@
     <entry file="file://$PROJECT_DIR$/images/ci-view.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="480">
-            <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="40" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cypress/integration/spec-d.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -480,8 +471,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cypress/integration/spec-a.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        <state relative-caret-position="645">
+          <caret line="43" column="2" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>

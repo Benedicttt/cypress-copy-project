@@ -1,4 +1,3 @@
-# cypress-example-reporters [![renovate-app badge][renovate-badge]][renovate-app] [![CircleCI](https://circleci.com/gh/cypress-io/cypress-example-reporters/tree/master.svg?style=svg)](https://circleci.com/gh/cypress-io/cypress-example-reporters/tree/master)
 Read [Cypress Reporters Guide](https://on.cypress.io/reporters)
 
 ## CI
@@ -29,5 +28,3 @@ Screenshots and videos stored as test artifacts can help debug the failures
 
 ![Test artifacts](images/reports.png)
 
-[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
-[renovate-app]: https://renovateapp.com/
