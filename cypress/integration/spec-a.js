@@ -18,7 +18,7 @@ describe('with a 320x568 viewport', function() {
     });
 
     it('has a visible mobile menu toggle', function() {
-        cy.get('#mobile-menu-toggle').should('be.visible');
+        cy.get('#mobile-menu-toggle').should('not.be.visible');
     });
 });
 
