@@ -17,6 +17,8 @@ workflows:
                   npm run generate:report
             - store_artifacts:
                 path: mochawesome-report
+            - store_test_results:
+                path: test-results
 
       - cypress/run:
           name: JUnit
