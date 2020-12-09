@@ -13,7 +13,6 @@ workflows:
                 name: generate combined report
                 when: always
                 command: |
-                  npm i
                   npm run merge:reports
                   npm run generate:report
             - store_artifacts:
