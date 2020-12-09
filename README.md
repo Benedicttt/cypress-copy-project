@@ -5,7 +5,7 @@ Read [Cypress Reporters Guide](https://on.cypress.io/reporters)
 
 ## CI
 
-The tests are executed on [CircleCI](https://circleci.com/gh/cypress-io/cypress-example-reporters), see configuration file [circle.yml](circle.yml). One job generates Mochawesome report, while the second one stores JUnit test results. Both jobs store automatic screenshots and videos.
+The tests are executed on [CircleCI](https://circleci.com/gh/cypress-io/cypress-example-reporters), see configuration file [circle.yml](.circleci/config.yml). One job generates Mochawesome report, while the second one stores JUnit test results. Both jobs store automatic screenshots and videos.
 
 ## Mochawesome
 
