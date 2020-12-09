@@ -1,14 +1,44 @@
-/// <reference types="Cypress" />
+describe('CSS-Tricks home page', function() {
+    beforeEach(function() {
+        cy.visit('https://css-tricks.com/');
+    });
 
-describe('First spec', () => {
-  it('works', () => {
-    cy.wrap('foo').should('equal', 'foo')
-  })
+    it('contains "CSS-Tricks" in the title', function() {
+        cy.title().should('contain', 'CSS-Tricks');
+    });
 
-  it('works again', () => {
-    cy.wait(1000)
-      .then(() => {
-        expect(true).to.be.true
-      })
-  })
+    it('contains "CSS-Tricks" in the title', function() {
+        cy.get('.icon-logo-star').should('be.visible');
+    });
+});
+
+describe('with a 320x568 viewport', function() {
+    beforeEach(function() {
+        cy.viewport(320, 568);
+    });
+
+    it('has a visible mobile menu toggle', function() {
+        cy.get('#mobile-menu-toggle').should('be.visible');
+    });
+});
+
+describe('with a 1100x660 viewport', function() {
+    beforeEach(function() {
+        cy.viewport(1100, 660);
+    });
+
+    it('has a visible mobile menu toggle', function() {
+        cy.get('#mobile-menu-toggle').should('be.visible');
+    });
+});
+
+
+describe('with a 1085 viewport', function() {
+    beforeEach(function() {
+        cy.viewport(1085, 660);
+    });
+
+    it('has a visible mobile menu toggle', function() {
+        cy.get('#mobile-menu-toggle').should('be.visible');
+    });
 })

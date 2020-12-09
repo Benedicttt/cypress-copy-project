@@ -22,8 +22,8 @@
     "cypress",
     "cypress-example"
   ],
-  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
-  "license": "MIT",
+  "author": "",
+  "license": "",
   "bugs": {
     "url": "https://github.com/cypress-io/cypress-example-reporters/issues"
   },
