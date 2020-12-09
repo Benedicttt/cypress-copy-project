@@ -1,0 +1,35 @@
+# to use orbs, must use version >= 2.1
+version: 2.1
+orbs:
+  # import Cypress orb by specifying an exact version x.y.z
+  # or the latest version 1.x.x using "@1" syntax
+  cypress: cypress-io/cypress@1
+workflows:
+  build:
+    jobs:
+      - cypress/run:
+          name: Mochawesome
+          no-workspace: true
+          # always store any test screenshots and videos
+          store_artifacts: true
+          post-steps:
+            # we need to generate test reports in every case,
+            # even if (or especially if) the Cypress tests have failed
+            - run:
+                name: generate combined report
+                when: always
+                command: |
+                  npm run merge:reports
+                  npm run generate:report
+            - store_artifacts:
+                path: mochawesome-report
+
+      - cypress/run:
+          name: JUnit
+          command: npm run test:junit
+          no-workspace: true
+          # always store any test screenshots and videos
+          store_artifacts: true
+          post-steps:
+            - store_test_results:
+                path: results
