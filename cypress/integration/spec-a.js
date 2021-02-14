@@ -7,7 +7,7 @@ describe('CSS-Tricks home page', function() {
         cy.title().should('contain', 'CSS-Tricks');
     });
 
-    it('contains "CSS-Tricks" in the title', function() {
+    it('contains  "CSS-Tricks" in the title', function() {
         cy.get('.icon-logo-star').should('be.visible');
     });
 });
