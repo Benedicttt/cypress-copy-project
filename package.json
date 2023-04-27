@@ -4,14 +4,15 @@
   "description": "Example showing multiple test reports merged into a single Mochawesome report",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
-    "cypress:run": "cypress run",
-    "cypress:open": "cypress open",
+    "test": "npx cypress run",
+    "cypress:run": "npx cypress run",
+    "cy:parallel": "npx  cypress-parallel -s cy:run -t 2 -d . ",
+    "cypress:open": "npx cypress open",
     "pretest": "npm run delete:reports",
     "delete:reports": "rm cypress/results/* || true",
     "merge:reports": "mochawesome-merge 'cypress/results/*.json' > mochawesome.json",
     "generate:report": "marge mochawesome.json --reportFilename index.html",
-    "test:junit": "cypress run --reporter junit --reporter-options mochaFile=results/Cypress/junit-[hash].xml",
+    "test:junit": "npx cypress run --reporter junit --reporter-options mochaFile=results/Cypress/junit-[hash].xml",
     "test:mochawesome": "npm test && npm run merge:reports && npm run generate:report"
   },
   "repository": {
@@ -29,7 +30,10 @@
   },
   "homepage": "https://github.com/cypress-io/cypress-example-reporters#readme",
   "devDependencies": {
-    "cypress": "5.6.0",
+    "cypress": "^5.6.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "cypress-parallel": "^0.12.0",
+    "g": "^2.0.1",
     "mochawesome": "6.2.1",
     "mochawesome-merge": "4.2.0",
     "mochawesome-report-generator": "5.1.0"
