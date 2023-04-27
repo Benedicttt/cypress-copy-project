@@ -22,6 +22,7 @@ workflows:
                 path: test-results
 
       - cypress/run:
+          parallelism: 4
           name: JUnit
           command: npm run test:junit
           no-workspace: true
