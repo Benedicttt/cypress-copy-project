@@ -1,13 +1,13 @@
 describe('CSS-Tricks home page', function() {
-    beforeEach(function() {
+    beforeEach({ browser: 'chrome' }, function() {
         cy.visit('https://css-tricks.com/');
     });
 
-    it('contains "CSS-Tricks" in the title', function() {
+    it('contains "CSS-Tricks" in the title', { browser: 'chrome' }, function () {
         cy.title().should('contain', 'CSS-Tricks');
     });
 
-    it('contains  "CSS-Tricks" in the title', function() {
+    it('contains  "CSS-Tricks" in the title', { browser: 'chrome' }, function() {
         cy.get('.icon-logo-star').should('be.visible');
     });
 });
