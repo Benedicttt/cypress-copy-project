@@ -4,6 +4,8 @@ orbs:
 workflows:
   build:
     jobs:
+      parallelism: 4
+
       - cypress/run:
           name: Mochawesome
           no-workspace: true
