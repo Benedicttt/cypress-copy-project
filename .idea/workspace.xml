@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cc1065d-0058-4d2e-91b2-2022f8c5aacf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/spec-a.js/with a 1085 viewport -- has a visible mobile menu toggle (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/spec-a.js/with a 1100x660 viewport -- has a visible mobile menu toggle (failed).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +185,7 @@
       <workItem from="1613308568332" duration="105000" />
       <workItem from="1613308709757" duration="1628000" />
       <workItem from="1682630256577" duration="7394000" />
-      <workItem from="1683120080666" duration="898000" />
+      <workItem from="1683120080666" duration="1161000" />
     </task>
     <servers />
   </component>
