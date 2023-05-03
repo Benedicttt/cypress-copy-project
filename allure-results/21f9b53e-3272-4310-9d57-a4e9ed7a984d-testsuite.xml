@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683120998581' stop='1683121001242'>
+    <name>with a 320x568 viewport</name>
+    <title>with a 320x568 viewport</title>
+    <test-cases>
+        <test-case start='1683120998582' status='passed' stop='1683121000877'>
+            <name>has a visible mobile menu toggle</name>
+            <title>has a visible mobile menu toggle</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run -b chrome",
-    "cypress:run": "npx cypress run",
+    "cypress:run": "npx cypress run --browser chrome --headless  --env allure=true --reporter mocha-allure-reporter",
     "cy:parallel electron": "npx cypress-parallel -s cypress:run -t 3 -d 'cypress/integration/*.js' --reporter mochawesome -b electron",
     "cy:parallel chrome": "npx cypress-parallel  -b chrome -s cypress:run -t 3 -d 'cypress/integration/*.js' --reporter mochawesome",
     "cypress:open": "npx cypress open",
@@ -31,13 +31,20 @@
   },
   "homepage": "https://github.com/cypress-io/cypress-example-reporters#readme",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.38.4",
+    "allure-commandline": "^2.22.0",
     "cypress": "^5.6.0",
     "cypress-multi-reporters": "^1.6.3",
     "cypress-parallel": "^0.12.0",
     "g": "^2.0.1",
+    "mocha-allure-reporter": "^1.4.0",
     "mochawesome": "6.2.1",
     "mochawesome-merge": "4.2.0",
     "mochawesome-report-generator": "5.1.0"
   },
+  "env": {
+    "allureResultsPath": "allure-results"
+  },
+
   "private": true
 }

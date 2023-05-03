@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cc1065d-0058-4d2e-91b2-2022f8c5aacf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/spec-a.js/with a 1085 viewport -- has a visible mobile menu toggle (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/spec-a.js/with a 1100x660 viewport -- has a visible mobile menu toggle (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +61,9 @@
     <option name="height" value="1200" />
   </component>
   <component name="ProjectId" id="2P1gyKg0C3EQ8xCcrpizvkKblrY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -111,8 +121,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -127,19 +139,36 @@
       <recent name="$PROJECT_DIR$/.circleci" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.spec-c.js">
+  <component name="RunManager" selected="Mocha.CSS-Tricks home page">
     <configuration name="cypress run" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="cypress run" working-dir="$PROJECT_DIR$/cypress/integration">
       <method v="2" />
     </configuration>
     <configuration name="spec-c.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="spec-c.js" working-dir="$PROJECT_DIR$/cypress/integration">
       <method v="2" />
     </configuration>
+    <configuration name="CSS-Tricks home page" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/cypress/integration/spec-a.js</test-file>
+      <test-names>
+        <name value="CSS-Tricks home page" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Mocha.CSS-Tricks home page" />
       <item itemvalue="Node.js.cypress run" />
       <item itemvalue="Node.js.spec-c.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.CSS-Tricks home page" />
         <item itemvalue="Node.js.spec-c.js" />
         <item itemvalue="Node.js.cypress run" />
       </list>
@@ -162,7 +191,8 @@
       <workItem from="1613308523640" duration="20000" />
       <workItem from="1613308568332" duration="105000" />
       <workItem from="1613308709757" duration="1628000" />
-      <workItem from="1682630256577" duration="5988000" />
+      <workItem from="1682630256577" duration="7394000" />
+      <workItem from="1683120080666" duration="898000" />
     </task>
     <servers />
   </component>
@@ -206,6 +236,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cypress/integration/spec-b.js">

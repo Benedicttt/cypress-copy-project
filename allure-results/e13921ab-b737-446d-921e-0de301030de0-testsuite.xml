@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683120983478' stop='1683120998575'>
+    <name>CSS-Tricks home page</name>
+    <title>CSS-Tricks home page</title>
+    <test-cases>
+        <test-case start='1683120983479' status='passed' stop='1683120994002'>
+            <name>contains "CSS-Tricks" in the title</name>
+            <title>contains "CSS-Tricks" in the title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1683120994088' status='passed' stop='1683120998464'>
+            <name>contains  "CSS-Tricks" in the title</name>
+            <title>contains  "CSS-Tricks" in the title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
